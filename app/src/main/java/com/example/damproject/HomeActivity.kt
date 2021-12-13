@@ -32,11 +32,11 @@ class HomeActivity : AppCompatActivity() {
 
     private fun Initialize(){
         //Inicializar el la navegación en el dashboard Fragment
-        replaceFragment(dashboardFragment)
+        replaceFragment(clientsFragment)
         //Reemplazar el fragmento con uno nuevo
         bottom_navigation.setOnNavigationItemReselectedListener {
             when(it.itemId){
-                R.id.dashboar -> replaceFragment(dashboardFragment)
+                //R.id.dashboar -> replaceFragment(dashboardFragment)
                 R.id.products -> replaceFragment(productsFragment)
                 R.id.qr_generate -> replaceFragment(qrFragment)
                 R.id.client -> replaceFragment(clientsFragment)
