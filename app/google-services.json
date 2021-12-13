@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "390391999016",
+    "project_id": "damproject-dfe64",
+    "storage_bucket": "damproject-dfe64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390391999016:android:f026dce3ce4328fe46e31d",
+        "android_client_info": {
+          "package_name": "com.example.damproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390391999016-ktmdpvp41shum4grrvpo41fh24nf32f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.damproject",
+            "certificate_hash": "41fcc6a14e580b8a40ddd2c7c08382cba3d23ee1"
+          }
+        },
+        {
+          "client_id": "390391999016-fbkr3hg8iar7qru32ic609hkigp73v2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmIm3t_oB70qOB-RXz7fkMEiZUreEtPHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390391999016-fbkr3hg8iar7qru32ic609hkigp73v2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
