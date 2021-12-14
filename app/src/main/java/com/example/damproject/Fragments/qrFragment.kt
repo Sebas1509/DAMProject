@@ -23,10 +23,9 @@ class QrFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        val vista=inflater.inflate(R.layout.fragment_qr, container, false)
-        return vista
+    ): View? {// Inflate the layout for this fragment
+
+        return inflater.inflate(R.layout.fragment_qr, container, false)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -44,7 +43,8 @@ class QrFragment : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        leer_qr.setOnClickListener {
+        Toast.makeText(activity,"Entré",Toast.LENGTH_SHORT)
+/*        leer_qr.setOnClickListener {
             var integrador:IntentIntegrator=IntentIntegrator(activity)
             integrador.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES)
             integrador.setPrompt("Lector-CDP")
@@ -59,7 +59,7 @@ class QrFragment : Fragment() {
         }
         leer_qr.setOnClickListener {
             Toast.makeText(activity,"Entré a leer",Toast.LENGTH_SHORT)
-        }
+        }*/
     }
 
     private fun initFlash(){

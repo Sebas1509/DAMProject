@@ -4,16 +4,13 @@ package com.example.damproject
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.damproject.Fragments.ClientsFragment
-import com.example.damproject.Fragments.DashboardFragment
-import com.example.damproject.Fragments.ProductsFragment
-import com.example.damproject.Fragments.QrFragment
+import com.example.damproject.Fragments.*
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
     private val qrFragment= QrFragment()
     private val productsFragment= ProductsFragment()
-    private val dashboardFragment= DashboardFragment()
+    //private val exampleFragment= ExampleFragment()
     private val clientsFragment= ClientsFragment()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +37,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.products -> replaceFragment(productsFragment)
                 R.id.qr_generate -> replaceFragment(qrFragment)
                 R.id.client -> replaceFragment(clientsFragment)
+
             }
             true
         }
